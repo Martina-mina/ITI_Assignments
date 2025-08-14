@@ -1,0 +1,121 @@
+using System;
+
+namespace Problems
+{
+    // -------------------- Problem 1 – Inheritance --------------------
+    class Vehicle
+    {
+        public string Brand { get; set; }
+        public int Speed { get; set; }
+
+        public virtual void DisplayInfo()
+        {
+            Console.WriteLine($"Brand: {Brand}, Speed: {Speed} km/h");
+        }
+    }
+
+    class Car : Vehicle
+    {
+        public int NumberOfDoors { get; set; }
+
+        public override void DisplayInfo()
+        {
+            Console.WriteLine($"Brand: {Brand}, Speed: {Speed} km/h, Doors: {NumberOfDoors}");
+        }
+    }
+
+    // -------------------- Problem 2 – Multiple Inheritance using Interface --------------------
+    interface IPrintable
+    {
+        void PrintDetails();
+    }
+
+    interface IBorrowable
+    {
+        void Borrow();
+    }
+
+    class Book : IPrintable, IBorrowable
+    {
+        public string Title { get; set; }
+        public string Author { get; set; }
+
+        public void PrintDetails()
+        {
+            Console.WriteLine($"Book Title: {Title}, Author: {Author}");
+        }
+
+        public void Borrow()
+        {
+            Console.WriteLine($"{Title} has been borrowed.");
+        }
+    }
+
+    // -------------------- Problem 3 – Method Overloading --------------------
+    class Calculator
+    {
+        public int Add(int a, int b)
+        {
+            return a + b;
+        }
+
+        public double Add(double a, double b)
+        {
+            return a + b;
+        }
+
+        public int Add(int a, int b, int c)
+        {
+            return a + b + c;
+        }
+    }
+
+    // -------------------- Problem 4 – Method Override --------------------
+    class Shape
+    {
+        public virtual void Draw()
+        {
+            Console.WriteLine("Drawing a Shape");
+        }
+    }
+
+    class Circle : Shape
+    {
+        public override void Draw()
+        {
+            Console.WriteLine("Drawing a Circle");
+        }
+    }
+
+    // -------------------- Main Method --------------------
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Problem 1
+            Car myCar = new Car { Brand = "Toyota", Speed = 180, NumberOfDoors = 4 };
+            myCar.DisplayInfo();
+
+            Console.WriteLine("----------------------------");
+
+            // Problem 2
+            Book myBook = new Book { Title = "C# Basics", Author = "John Doe" };
+            myBook.PrintDetails();
+            myBook.Borrow();
+
+            Console.WriteLine("----------------------------");
+
+            // Problem 3
+            Calculator calc = new Calculator();
+            Console.WriteLine("Sum of 2 ints: " + calc.Add(3, 5));
+            Console.WriteLine("Sum of 2 doubles: " + calc.Add(2.5, 4.3));
+            Console.WriteLine("Sum of 3 ints: " + calc.Add(1, 2, 3));
+
+            Console.WriteLine("----------------------------");
+
+            // Problem 4
+            Shape shape = new Circle(); // Polymorphism
+            shape.Draw();
+        }
+    }
+}
