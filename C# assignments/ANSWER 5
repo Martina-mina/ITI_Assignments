@@ -1,0 +1,183 @@
+using System;
+
+namespace Problem1
+{
+
+    abstract class Animal
+    {
+        public string Name { get; set; }
+
+        public abstract void MakeSound();
+
+        public void Eat()
+        {
+            Console.WriteLine("Animal is eating");
+        }
+    }
+
+
+    interface IMovable
+    {
+        void Move();
+    }
+
+    
+    interface IFlyable
+    {
+        void Fly();
+    }
+
+    
+    class Bird : Animal, IMovable, IFlyable
+    {
+        public override void MakeSound()
+        {
+            Console.WriteLine("Chirp Chirp");
+        }
+
+        public void Move()
+        {
+            Console.WriteLine("Bird is walking");
+        }
+
+        public void Fly()
+        {
+            Console.WriteLine("Bird is flying");
+        }
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Bird myBird = new Bird();
+            myBird.Name = "Sparrow";
+
+            Console.WriteLine("Bird Name: " + myBird.Name);
+            myBird.MakeSound();
+            myBird.Eat();
+            myBird.Move();
+            myBird.Fly();
+        }
+    }
+}
+
+/*********************************************************            2                  ********************************************************/
+
+
+
+using System;
+
+namespace Problem2
+{
+    static class MathHelper
+    {
+        static MathHelper()
+        {
+            Console.WriteLine("MathHelper Initialized");
+        }
+
+        public static int Add(int a, int b)
+        {
+            return a + b;
+        }
+
+        public static int Multiply(int a, int b)
+        {
+            return a * b;
+        }
+
+        public static void PrintMessage()
+        {
+            Console.WriteLine("Math Helper Ready");
+        }
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Sum: " + MathHelper.Add(5, 3));
+            Console.WriteLine("Product: " + MathHelper.Multiply(4, 2));
+            MathHelper.PrintMessage();
+        }
+    }
+}
+
+
+/**********************************                               3                         *********************************************************/
+
+
+using System;
+
+namespace Problem3
+{
+    class Person
+    {
+        public string Name { get; set; }
+
+        public virtual void Display()
+        {
+            Console.WriteLine("Person Name: " + Name);
+        }
+    }
+
+    sealed class Student : Person
+    {
+        public string Grade { get; set; }
+
+        public override void Display()
+        {
+            Console.WriteLine("Person Name: " + Name + ", Grade: " + Grade);
+        }
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Student student = new Student();
+            student.Name = "John";
+            student.Grade = "A";
+            student.Display();
+        }
+    }
+}
+
+
+
+
+
+/****************************************************************             4                       ****************************************/ 
+
+
+using System;
+
+namespace Problem4
+{
+    
+    partial class Car
+    {
+        public string Brand { get; set; }
+        public string Model { get; set; }
+    }
+
+    partial class Car
+    {
+        public void DisplayInfo()
+        {
+            Console.WriteLine("Brand: " + Brand + ", Model: " + Model);
+        }
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Car myCar = new Car();
+            myCar.Brand = "Toyota";
+            myCar.Model = "Corolla";
+            myCar.DisplayInfo();
+        }
+    }
+}
