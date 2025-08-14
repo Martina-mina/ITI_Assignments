@@ -1,0 +1,142 @@
+using System;
+
+namespace PracticeProblems
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // ------------------ Problem 1 ------------------
+            Console.WriteLine("Enter a number:");
+            int num1 = int.Parse(Console.ReadLine());
+            if (num1 % 3 == 0 && num1 % 4 == 0)
+                Console.WriteLine("Yes");
+            else
+                Console.WriteLine("No");
+
+            // ------------------ Problem 2 ------------------
+            Console.WriteLine("Enter an integer:");
+            int num2 = int.Parse(Console.ReadLine());
+            if (num2 < 0)
+                Console.WriteLine("negative");
+            else
+                Console.WriteLine("positive");
+
+            // ------------------ Problem 3 ------------------
+            Console.WriteLine("Enter three integers:");
+            int a = int.Parse(Console.ReadLine());
+            int b = int.Parse(Console.ReadLine());
+            int c = int.Parse(Console.ReadLine());
+
+            int max = Math.Max(a, Math.Max(b, c));
+            int min = Math.Min(a, Math.Min(b, c));
+
+            Console.WriteLine($"Max element = {max}");
+            Console.WriteLine($"Min element = {min}");
+
+            // ------------------ Problem 4 ------------------
+            Console.WriteLine("Enter an integer:");
+            int num4 = int.Parse(Console.ReadLine());
+            if (num4 % 2 == 0)
+                Console.WriteLine("Even");
+            else
+                Console.WriteLine("Odd");
+
+            // ------------------ Problem 5 ------------------
+            Console.WriteLine("Enter a character:");
+            char ch = char.ToLower(Console.ReadLine()[0]);
+            if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')
+                Console.WriteLine("Vowel");
+            else
+                Console.WriteLine("Consonant");
+
+            // ------------------ Problem 6 ------------------
+            Console.WriteLine("Enter an integer:");
+            int num6 = int.Parse(Console.ReadLine());
+            for (int i = 1; i <= num6; i++)
+                Console.Write(i + (i < num6 ? ", " : "\n"));
+
+            // ------------------ Problem 7 ------------------
+            Console.WriteLine("Enter a number for multiplication table:");
+            int num7 = int.Parse(Console.ReadLine());
+            for (int i = 1; i <= 12; i++)
+                Console.Write(num7 * i + " ");
+            Console.WriteLine();
+
+            // ------------------ Problem 8 ------------------
+            Console.WriteLine("Enter a number:");
+            int num8 = int.Parse(Console.ReadLine());
+            for (int i = 2; i <= num8; i += 2)
+                Console.Write(i + " ");
+            Console.WriteLine();
+
+            // ------------------ Problem 9 ------------------
+            Console.WriteLine("Enter base number:");
+            int baseNum = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter exponent:");
+            int exp = int.Parse(Console.ReadLine());
+            int result = 1;
+            for (int i = 1; i <= exp; i++)
+                result *= baseNum;
+            Console.WriteLine("Result = " + result);
+
+            // ------------------ Problem 10 ------------------
+            Console.WriteLine("Enter marks of five subjects:");
+            int sum = 0;
+            for (int i = 0; i < 5; i++)
+            {
+                sum += int.Parse(Console.ReadLine());
+            }
+            double average = sum / 5.0;
+            double percentage = (sum / 500.0) * 100;
+            Console.WriteLine($"Total marks = {sum}");
+            Console.WriteLine($"Average Marks = {average}");
+            Console.WriteLine($"Percentage = {percentage}");
+
+            // ------------------ Problem 11 ------------------
+            Console.WriteLine("Simple Calculator");
+            Console.WriteLine("Enter first number:");
+            double numA = double.Parse(Console.ReadLine());
+            Console.WriteLine("Enter operator (+, -, *, /):");
+            char op = Console.ReadLine()[0];
+            Console.WriteLine("Enter second number:");
+            double numB = double.Parse(Console.ReadLine());
+
+            switch (op)
+            {
+                case '+':
+                    Console.WriteLine($"Result: {numA + numB}");
+                    break;
+                case '-':
+                    Console.WriteLine($"Result: {numA - numB}");
+                    break;
+                case '*':
+                    Console.WriteLine($"Result: {numA * numB}");
+                    break;
+                case '/':
+                    if (numB != 0)
+                        Console.WriteLine($"Result: {numA / numB}");
+                    else
+                        Console.WriteLine("Cannot divide by zero!");
+                    break;
+                default:
+                    Console.WriteLine("Invalid operator");
+                    break;
+            }
+
+            // ------------------ Problem 12 ------------------
+            Console.WriteLine("Enter number of elements in array:");
+            int n = int.Parse(Console.ReadLine());
+            int[] arr = new int[n];
+            int evenSum = 0;
+            Console.WriteLine("Enter array elements:");
+            for (int i = 0; i < n; i++)
+            {
+                arr[i] = int.Parse(Console.ReadLine());
+                if (arr[i] % 2 == 0)
+                    evenSum += arr[i];
+            }
+            Console.WriteLine("Sum of even numbers = " + evenSum);
+        }
+    }
+}
