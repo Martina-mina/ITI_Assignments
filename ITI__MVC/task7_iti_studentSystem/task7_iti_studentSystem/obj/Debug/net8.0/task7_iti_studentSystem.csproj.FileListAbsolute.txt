@@ -1,0 +1,14 @@
+D:\DOTNET_PROJECTS\task7_iti_studentSystem\task7_iti_studentSystem\bin\Debug\net8.0\task7_iti_studentSystem.exe
+D:\DOTNET_PROJECTS\task7_iti_studentSystem\task7_iti_studentSystem\bin\Debug\net8.0\task7_iti_studentSystem.deps.json
+D:\DOTNET_PROJECTS\task7_iti_studentSystem\task7_iti_studentSystem\bin\Debug\net8.0\task7_iti_studentSystem.runtimeconfig.json
+D:\DOTNET_PROJECTS\task7_iti_studentSystem\task7_iti_studentSystem\bin\Debug\net8.0\task7_iti_studentSystem.dll
+D:\DOTNET_PROJECTS\task7_iti_studentSystem\task7_iti_studentSystem\bin\Debug\net8.0\task7_iti_studentSystem.pdb
+D:\DOTNET_PROJECTS\task7_iti_studentSystem\task7_iti_studentSystem\obj\Debug\net8.0\task7_iti_studentSystem.GeneratedMSBuildEditorConfig.editorconfig
+D:\DOTNET_PROJECTS\task7_iti_studentSystem\task7_iti_studentSystem\obj\Debug\net8.0\task7_iti_studentSystem.AssemblyInfoInputs.cache
+D:\DOTNET_PROJECTS\task7_iti_studentSystem\task7_iti_studentSystem\obj\Debug\net8.0\task7_iti_studentSystem.AssemblyInfo.cs
+D:\DOTNET_PROJECTS\task7_iti_studentSystem\task7_iti_studentSystem\obj\Debug\net8.0\task7_iti_studentSystem.csproj.CoreCompileInputs.cache
+D:\DOTNET_PROJECTS\task7_iti_studentSystem\task7_iti_studentSystem\obj\Debug\net8.0\task7_iti_studentSystem.dll
+D:\DOTNET_PROJECTS\task7_iti_studentSystem\task7_iti_studentSystem\obj\Debug\net8.0\refint\task7_iti_studentSystem.dll
+D:\DOTNET_PROJECTS\task7_iti_studentSystem\task7_iti_studentSystem\obj\Debug\net8.0\task7_iti_studentSystem.pdb
+D:\DOTNET_PROJECTS\task7_iti_studentSystem\task7_iti_studentSystem\obj\Debug\net8.0\task7_iti_studentSystem.genruntimeconfig.cache
+D:\DOTNET_PROJECTS\task7_iti_studentSystem\task7_iti_studentSystem\obj\Debug\net8.0\ref\task7_iti_studentSystem.dll

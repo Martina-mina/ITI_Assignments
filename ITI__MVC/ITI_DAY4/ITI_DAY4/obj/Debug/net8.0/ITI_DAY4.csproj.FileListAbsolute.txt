@@ -1,0 +1,8 @@
+D:\DOTNET_PROJECTS\ITI_DAY4\ITI_DAY4\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\DOTNET_PROJECTS\ITI_DAY4\ITI_DAY4\obj\Debug\net8.0\ITI_DAY4.GeneratedMSBuildEditorConfig.editorconfig
+D:\DOTNET_PROJECTS\ITI_DAY4\ITI_DAY4\obj\Debug\net8.0\ITI_DAY4.AssemblyInfoInputs.cache
+D:\DOTNET_PROJECTS\ITI_DAY4\ITI_DAY4\obj\Debug\net8.0\ITI_DAY4.AssemblyInfo.cs
+D:\DOTNET_PROJECTS\ITI_DAY4\ITI_DAY4\obj\Debug\net8.0\ITI_DAY4.csproj.CoreCompileInputs.cache
+D:\DOTNET_PROJECTS\ITI_DAY4\ITI_DAY4\obj\Debug\net8.0\ITI_DAY4.MvcApplicationPartsAssemblyInfo.cache
+D:\DOTNET_PROJECTS\ITI_DAY4\ITI_DAY4\obj\Debug\net8.0\ITI_DAY4.RazorAssemblyInfo.cache
+D:\DOTNET_PROJECTS\ITI_DAY4\ITI_DAY4\obj\Debug\net8.0\ITI_DAY4.RazorAssemblyInfo.cs

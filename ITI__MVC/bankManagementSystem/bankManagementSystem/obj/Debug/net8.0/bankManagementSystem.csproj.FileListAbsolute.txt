@@ -1,0 +1,4 @@
+D:\DOTNET_PROJECTS\bankManagementSystem\bankManagementSystem\obj\Debug\net8.0\bankManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+D:\DOTNET_PROJECTS\bankManagementSystem\bankManagementSystem\obj\Debug\net8.0\bankManagementSystem.AssemblyInfoInputs.cache
+D:\DOTNET_PROJECTS\bankManagementSystem\bankManagementSystem\obj\Debug\net8.0\bankManagementSystem.AssemblyInfo.cs
+D:\DOTNET_PROJECTS\bankManagementSystem\bankManagementSystem\obj\Debug\net8.0\bankManagementSystem.csproj.CoreCompileInputs.cache
