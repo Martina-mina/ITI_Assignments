@@ -1,0 +1,14 @@
+D:\DOTNET_PROJECTS\iti_entityFramework_task1\iti_entityFramework_task1\bin\Debug\net8.0\iti_entityFramework_task1.exe
+D:\DOTNET_PROJECTS\iti_entityFramework_task1\iti_entityFramework_task1\bin\Debug\net8.0\iti_entityFramework_task1.deps.json
+D:\DOTNET_PROJECTS\iti_entityFramework_task1\iti_entityFramework_task1\bin\Debug\net8.0\iti_entityFramework_task1.runtimeconfig.json
+D:\DOTNET_PROJECTS\iti_entityFramework_task1\iti_entityFramework_task1\bin\Debug\net8.0\iti_entityFramework_task1.dll
+D:\DOTNET_PROJECTS\iti_entityFramework_task1\iti_entityFramework_task1\bin\Debug\net8.0\iti_entityFramework_task1.pdb
+D:\DOTNET_PROJECTS\iti_entityFramework_task1\iti_entityFramework_task1\obj\Debug\net8.0\iti_entityFramework_task1.GeneratedMSBuildEditorConfig.editorconfig
+D:\DOTNET_PROJECTS\iti_entityFramework_task1\iti_entityFramework_task1\obj\Debug\net8.0\iti_entityFramework_task1.AssemblyInfoInputs.cache
+D:\DOTNET_PROJECTS\iti_entityFramework_task1\iti_entityFramework_task1\obj\Debug\net8.0\iti_entityFramework_task1.AssemblyInfo.cs
+D:\DOTNET_PROJECTS\iti_entityFramework_task1\iti_entityFramework_task1\obj\Debug\net8.0\iti_entityFramework_task1.csproj.CoreCompileInputs.cache
+D:\DOTNET_PROJECTS\iti_entityFramework_task1\iti_entityFramework_task1\obj\Debug\net8.0\iti_entityFramework_task1.dll
+D:\DOTNET_PROJECTS\iti_entityFramework_task1\iti_entityFramework_task1\obj\Debug\net8.0\refint\iti_entityFramework_task1.dll
+D:\DOTNET_PROJECTS\iti_entityFramework_task1\iti_entityFramework_task1\obj\Debug\net8.0\iti_entityFramework_task1.pdb
+D:\DOTNET_PROJECTS\iti_entityFramework_task1\iti_entityFramework_task1\obj\Debug\net8.0\iti_entityFramework_task1.genruntimeconfig.cache
+D:\DOTNET_PROJECTS\iti_entityFramework_task1\iti_entityFramework_task1\obj\Debug\net8.0\ref\iti_entityFramework_task1.dll
